@@ -1,4 +1,4 @@
-export const bobsChar [
+export const bobsChar = [
     {
         name: 'bob',
         type: 'father',

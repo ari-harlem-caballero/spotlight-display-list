@@ -7,7 +7,7 @@ const bobsDiv = document.getElementById('bobs-list');
 
 for (let bob of bobsChar) {
   // step 3: render out an element for each item
-    const bobsDiv = renderBobs(bob);
+    const bobsList = renderBobs(bob);
   // step 4: append that rendered elem for each item
-    bobsDiv.append(bobsDiv);
+    bobsDiv.append(bobsList);
 }
