@@ -2,6 +2,6 @@ export const xmasThings = [
     'tree',
     'lights',
     'decorations',
-    'movies',
+    'stories',
     'socks'
 ];

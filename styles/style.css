@@ -35,11 +35,11 @@ main, html {
 }
 
 .bobs-burgers {
-    border: 2px blue solid;
+    border: 2px #f0262a dotted;
 }
 
 .bobs-besties {
-    border: 2px magenta dotted;
+    border: 2px #95d244 solid;
     width: 50%;
     margin-left: 50px;
     display: flex;
@@ -52,6 +52,24 @@ main, html {
 .bobs-besties p {
     margin: 5px;
 }
+
+#christmas-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.xmas-items {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#christmas-list img {
+    width: 130px;
+    height: 130px;
+}
+
 #pet-list {
     display: flex;
     flex-direction: column;
@@ -87,4 +105,13 @@ main, html {
     /* border: 1px black solid; */
     margin: 0;
     padding-right: 20px;
+}
+
+.tv-show {
+    border: cadetblue 2px solid;
+    margin: 5px;
+}
+
+.quotes {
+    border: yellow 2px dotted;
 }
