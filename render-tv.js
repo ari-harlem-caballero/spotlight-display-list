@@ -1,5 +1,5 @@
 export function renderTvShows(tvShow) {
-    console.log(tvShow);
+
     const tvDiv = document.createElement('div');
     const tvTitle = document.createElement('p');
 
