@@ -32,6 +32,11 @@ main, html {
 
 .main {
     border: 2px black solid;
+    margin: 20px;
+}
+
+h2 {
+    padding-left: 10px;
 }
 
 .bobs-burgers {
@@ -91,12 +96,13 @@ main, html {
 #pet-list {
     display: flex;
     flex-direction: column;
+    min-width: 60%;
 }
 
 .my-pets {
     border: 1px red solid;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .names {
@@ -140,4 +146,8 @@ main, html {
     text-align: right;
     margin-left: 150px;
     background-color: lightgray;
+}
+
+.tv-show p {
+    padding: 15px;
 }
