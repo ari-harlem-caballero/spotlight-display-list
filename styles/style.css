@@ -35,18 +35,26 @@ main, html {
 }
 
 .bobs-burgers {
-    border: 2px #f0262a dotted;
+    border: 2px #f0262a solid;
+    margin: 10px;
+    padding-left: 15px;
 }
 
 .bobs-besties {
-    border: 2px #95d244 solid;
+    border: #f0262a 2px dotted;
+    background-color: #95d244;
     width: 50%;
     margin-left: 50px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
     /* text-align: center; */
+}
+
+.bobs-burgers p {
+    margin: 5px;
 }
 
 .bobs-besties p {
@@ -121,8 +129,15 @@ main, html {
 .tv-show {
     border: cadetblue 2px solid;
     margin: 5px;
+    padding: 0 15px 0 15px;
 }
 
-.quotes {
-    border: yellow 2px dotted;
+.single-quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    text-align: right;
+    margin-left: 150px;
+    background-color: lightgray;
 }

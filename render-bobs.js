@@ -11,11 +11,12 @@ export function renderBobs(bob) {
     bobsDiv.classList.add('bobs-burgers');
     bestieDiv.classList.add('bobs-besties');
 
-    bobName.textContent = `Character: ${bob.name}`
-    bobType.textContent = `Type: ${bob.type}`
+    bobName.textContent = `Character: ${bob.name}`;
+    bobType.textContent = `Type: ${bob.type}`;
     bobJob.textContent = `Job: ${bob.job}`;
     bestieName.textContent = `Best Friend: ${bob.bestFriend.name}`;    
     bestieActivity.textContent = `Their Favorite Activity: ${bob.bestFriend.favActivity}`;    
+
 
     bestieDiv.append(bestieName, bestieActivity);
     bobsDiv.append(bobName, bobType, bobJob, bestieDiv);
