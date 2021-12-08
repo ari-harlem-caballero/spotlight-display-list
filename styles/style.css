@@ -32,21 +32,34 @@ main, html {
 
 .main {
     border: 2px black solid;
+    margin: 20px;
+}
+
+h2 {
+    padding-left: 10px;
 }
 
 .bobs-burgers {
-    border: 2px #f0262a dotted;
+    border: 2px #f0262a solid;
+    margin: 10px;
+    padding-left: 15px;
 }
 
 .bobs-besties {
-    border: 2px #95d244 solid;
+    border: #f0262a 2px dotted;
+    background-color: #95d244;
     width: 50%;
     margin-left: 50px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
     /* text-align: center; */
+}
+
+.bobs-burgers p {
+    margin: 5px;
 }
 
 .bobs-besties p {
@@ -55,30 +68,41 @@ main, html {
 
 #christmas-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .xmas-items {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 1.5px 6px black;
+    /* background-color: honeydew; */
 }
 
-#christmas-list img {
-    width: 130px;
-    height: 130px;
+.xmas-items.style {
+    width: 150px;
 }
 
 #pet-list {
     display: flex;
     flex-direction: column;
+    min-width: 60%;
 }
 
 .my-pets {
     border: 1px red solid;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .names {
@@ -104,14 +128,26 @@ main, html {
 .ranking {
     /* border: 1px black solid; */
     margin: 0;
-    padding-right: 20px;
+    padding: 5px 20px 0 20px;
+    color: white;
 }
 
 .tv-show {
     border: cadetblue 2px solid;
     margin: 5px;
+    padding: 0 15px 0 15px;
 }
 
-.quotes {
-    border: yellow 2px dotted;
+.single-quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    text-align: right;
+    margin-left: 150px;
+    background-color: lightgray;
+}
+
+.tv-show p {
+    padding: 15px;
 }

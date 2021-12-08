@@ -6,6 +6,10 @@ export function renderTvShows(tvShow) {
     tvDiv.classList.add('tv-show');
     
     tvTitle.textContent = `${tvShow.title}: ${tvShow.episodes}, ${tvShow.active}`;
+
+    if (tvTitle.textContent === `${tvShow.title}: ${tvShow.episodes}, ${tvShow.active}`) {
+        tvTitle.style.backgroundColor = 'darkgrey'; 
+    }
     
     tvDiv.append(tvTitle);
     
