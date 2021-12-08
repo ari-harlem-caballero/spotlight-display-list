@@ -56,9 +56,11 @@ main, html {
 #christmas-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
+
 
 .xmas-items {
     display: flex;
@@ -71,8 +73,8 @@ main, html {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    font-size: 40px;
-    text-shadow: 2.5px 1.5px gray;
+    font-size: 30px;
+    text-shadow: 2px 1.5px 6px black;
     /* background-color: honeydew; */
 }
 
