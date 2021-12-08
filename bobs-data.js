@@ -1,6 +1,6 @@
 export const bobsChar = [
     {
-        name: 'bob',
+        name: 'Bob',
         type: 'father',
         job: 'restaurant owner',
         bestFriend: {
@@ -9,7 +9,7 @@ export const bobsChar = [
         }   
     },
     {
-        name: 'linda',
+        name: 'Linda',
         type: 'mother',
         job: 'entertainment',
         bestFriend: {
@@ -18,7 +18,7 @@ export const bobsChar = [
         }   
     },
     {
-        name: 'tina',
+        name: 'Tina',
         type: 'eldest child',
         job: 'studying butts',
         bestFriend: {
@@ -27,7 +27,7 @@ export const bobsChar = [
         }   
     },
     {
-        name: 'gene',
+        name: 'Gene',
         type: 'middle child',
         job: 'musical expert',
         bestFriend: {
@@ -36,7 +36,7 @@ export const bobsChar = [
         }   
     },
     {
-        name: 'louise',
+        name: 'Louise',
         type: 'youngest child',
         job: 'world domination',
         bestFriend: {

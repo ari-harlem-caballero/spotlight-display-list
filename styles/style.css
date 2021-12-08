@@ -1,11 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 
-
-main {
+main, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: calc(var(--footer-height));
+
 }
 
 
@@ -32,6 +34,57 @@ main {
     border: 2px black solid;
 }
 
-#bobs-burgers {
+.bobs-burgers {
     border: 2px blue solid;
+}
+
+.bobs-besties {
+    border: 2px magenta dotted;
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    /* text-align: center; */
+}
+
+.bobs-besties p {
+    margin: 5px;
+}
+#pet-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-pets {
+    border: 1px red solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.names {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:inherit;
+    width: 100%;
+    margin: 5px;
+    /* border: 1px purple dotted; */
+}
+
+.type {
+    margin: 0;
+    padding: 5px;
+}
+
+.ranking {
+    /* border: 1px black solid; */
+    margin: 0;
+    padding-right: 20px;
 }
