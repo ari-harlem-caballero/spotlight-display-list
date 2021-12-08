@@ -55,19 +55,29 @@ main, html {
 
 #christmas-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .xmas-items {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2.5px 1.5px gray;
+    /* background-color: honeydew; */
 }
 
-#christmas-list img {
-    width: 130px;
-    height: 130px;
+.xmas-items.style {
+    width: 150px;
 }
 
 #pet-list {
